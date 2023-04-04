@@ -1,7 +1,7 @@
-from fileorganizer.fileorganizer import fileorganizer
+from fileorganizer.fileorganizer import FileOrganizer
 
 def run():
-    fileorganizer().run()
+    FileOrganizer().run()
     
 if __name__ == '__main__':
     run()
